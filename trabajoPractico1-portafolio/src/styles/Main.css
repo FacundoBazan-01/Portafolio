@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Proxima Nova', apple-system, Roboto, Arial, sans-serif, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer{
+    margin-top: auto;
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(203, 16, 16, 0.1);
+    padding: 30px;
+    max-width: 350px;
+    text-align: center;
+    margin: 50px auto;
+    transition: transform 0.3s ease;
+}
+  
+.card:hover {
+    transform: translateY(-5px);
+}
+  
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+  
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+  
+.title {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 15px;
+}
+  
+.info {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+}

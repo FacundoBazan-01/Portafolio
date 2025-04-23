@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Proxima Nova', apple-system, Roboto, Arial, sans-serif, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin-top: auto;
+}
