@@ -12,14 +12,13 @@ const Home = () => {
         edad: 26,
         img: `${reactLogo}`,
         email: "Facubazan992009@gmail.com",
-        ocupacion: "Estudiante de programación de la facultad regional Tucumán ",
-        telefono: 3816281616,
+        info: "Soy un estudiante de programación de la facultad regional Tucumán, estoy en segundo año de la carrera y los lenguajes que mas manejo son JavaScript, Java y un poco de C#.   ",
         localidad: "San Miguel de Tucumán"
 
     }
   return (
     <div>
-      <Header></Header>
+      <Header {...Alumno}></Header>
       <Main {...Alumno} ></Main>
       <Footer></Footer>
     </div>

@@ -1,19 +1,18 @@
 import React from "react";
 import "../styles/Main.css"
 
-const Main = ({nombre, apellido, edad, img, email, ocupacion, telefono, localidad}) => {
+const Main = ({nombre, apellido, edad, img, email, info, telefono, localidad}) => {
   return (
     <div className="card">
       <img
         src={img}
         alt="Tu foto"
-        className="avatar"
+        className="img"
       />
       <div className="name"> Nombre: {nombre} {apellido} </div>
-      <div className="title">Ocupacion: {ocupacion} </div>
+      <div className="title"> {info} </div>
       <div className="info">
         📧 {email} <br />
-        📱 {telefono} <br />
         🌍 {localidad}
       </div>
     </div>

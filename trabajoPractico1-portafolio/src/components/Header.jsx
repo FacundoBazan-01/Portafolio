@@ -1,9 +1,10 @@
 import React from 'react'
 
-const Header = () => {
+
+const Header = ({nombre, apellido}) => {
   return (
-    <div>
-      <h1>Portafolio Facundo </h1>
+    <div >
+      <h1>Portafolio {nombre} {apellido} </h1>
       <hr />
     </div>
   )
